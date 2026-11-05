@@ -1,0 +1,27 @@
+"size = ""grande""
+tumbler = True
+member = False
+
+if size == ""grande"":
+  fee=5000
+
+elif size == ""tall"":
+  fee = 4500
+
+if tumbler == True:
+  fee = fee - 300
+
+elif member == True:
+  fee = fee - fee/10
+
+print(fee)
+
+"
+
+
+i=0
+while i<6:
+    print(2*i-1)
+
+    i+=1  
+
